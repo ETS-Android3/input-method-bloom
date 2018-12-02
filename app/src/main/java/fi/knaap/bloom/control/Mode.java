@@ -10,9 +10,9 @@ public class Mode {
 	int index;
 	String name;
 	TreeMap<StrokeDescription, CharAction> bindings = new TreeMap<StrokeDescription, CharAction>();
-	CharAction defaultAction = null;;
+	CharAction defaultAction = null;
 
-	private Mode(int index, String name) {
+    private Mode(int index, String name) {
 		super();
 		this.index = index;
 		this.name = name;

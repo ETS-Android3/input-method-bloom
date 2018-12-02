@@ -104,7 +104,7 @@ public class BloomView extends View {
 			}else{
 				paint.setColor(Color.GRAY);								
 			}
-			String charString = "" + (char) binding.getValue().getCharDisplay();
+			String charString = "" + binding.getValue().getCharDisplay();
 			Util.rotatePoint(rotateAngle, point);
 			float x = point.getX();
 			float y = point.getY() + Math.round(0.3 * textSize);

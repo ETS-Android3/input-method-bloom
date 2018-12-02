@@ -20,7 +20,7 @@ public class StrokeDescription implements Comparable<StrokeDescription> {
 			return rotateCount;
 		}
 
-		private Curve(double minValue, double maxValue, int sortValue) {
+		Curve(double minValue, double maxValue, int sortValue) {
 			this.minValue = minValue;
 			this.maxValue = maxValue;
 			this.sortValue = sortValue;
@@ -49,7 +49,7 @@ public class StrokeDescription implements Comparable<StrokeDescription> {
 		private double maxValue;
 		private int sortValue;
 
-		private RelArea(double minValue, double maxValue, int sortValue) {
+		RelArea(double minValue, double maxValue, int sortValue) {
 			this.minValue = minValue;
 			this.maxValue = maxValue;
 			this.sortValue = sortValue;
@@ -113,7 +113,7 @@ public class StrokeDescription implements Comparable<StrokeDescription> {
 		private double minValue;
 		private double maxValue;
 
-		private Length(double minValue, double maxValue, int sortValue) {
+		Length(double minValue, double maxValue, int sortValue) {
 			this.minValue = minValue;
 			this.maxValue = maxValue;
 			this.sortValue = sortValue;
