@@ -14,9 +14,11 @@ are the simplest possible:
 * A straight stroke
 * A slightly curved stroke
 * A stroke with a loop in the middle
+
 By writing these strokes in different directions, different letters are selected. 8 directions are used,
 creating 45 degree sectors. For curve and looped stroke, also the side of the cure or loop affects the
 selection of the letter. Bloom contains a display that shows the user to which stroke each letter is
 assigned.
+
 Bloom was available in the Google play store for a long time. Soon a new version will be published
 based on the code you find here in GitHub.
