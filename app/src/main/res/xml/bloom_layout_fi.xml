@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bloom>
+	<Mode>
+		<Description Area="NONE" Curve="NONE" Direction="ALL"
+			Length="DOT">
+			<CharAction codes="-3" />
+		</Description>
+		<Description Area="LARGE" Curve="LEFT" Direction="ALL"
+			Length="LINE">
+			<CharAction codes="-1"/>
+		</Description>
+		<Description Area="LARGE" Curve="RIGHT" Direction="ALL"
+			Length="LINE">
+			<CharAction codes="-2"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="S"
+			Length="SHORT">
+			<CharAction CharActionLabel=" " />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="S"
+			Length="LINE">
+			<CharAction CharActionLabel="." />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="S"
+			Length="LINE">
+			<CharAction CharActionLabel="\?" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="S"
+			Length="LINE">
+			<CharAction CharActionLabel="!"/>
+		</Description>	
+		</Mode>
+	<Mode name="LOWER">
+		<Description Area="NONE" Curve="NONE" Direction="SW"
+			Length="SHORT">
+			<CharAction CharActionLabel="a" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="d" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="b" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="c"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="W"
+			Length="SHORT">
+			<CharAction CharActionLabel="e" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="g" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="f" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="h"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NW"
+			Length="SHORT">
+			<CharAction CharActionLabel="i" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="l" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="k" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="j"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="N"
+			Length="SHORT">
+			<CharAction CharActionLabel="o" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="N"
+			Length="LINE">
+			<CharAction CharActionLabel="n" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="N"
+			Length="LINE">
+			<CharAction CharActionLabel="m" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="N"
+			Length="LINE">
+			<CharAction CharActionLabel="p" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NE"
+			Length="SHORT">
+			<CharAction CharActionLabel="s" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NE"
+			Length="LINE">
+			<CharAction CharActionLabel="t" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel="q" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel="v" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="E"
+			Length="SHORT">
+			<CharAction CharActionLabel="u" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="E"
+			Length="LINE">
+			<CharAction CharActionLabel="r" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="w" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="x" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SE"
+			Length="SHORT">
+		<CharAction CharActionLabel="y" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="z" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="ä" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="ö" />
+		</Description>		
+	</Mode>
+	<Mode name ="UPPER">
+		<Description Area="NONE" Curve="NONE" Direction="SW"
+			Length="SHORT">
+			<CharAction CharActionLabel="A" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="D" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="B" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="C"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="W"
+			Length="SHORT">
+			<CharAction CharActionLabel="E" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="G" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="F" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="H"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NW"
+			Length="SHORT">
+			<CharAction CharActionLabel="I" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="L" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="K" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="J"/>
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="N"
+			Length="SHORT">
+			<CharAction CharActionLabel="O" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="N"
+			Length="LINE">
+			<CharAction CharActionLabel="N" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="N"
+			Length="LINE">
+			<CharAction CharActionLabel="M" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="N"
+			Length="LINE">
+			<CharAction CharActionLabel="P" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NE"
+			Length="SHORT">
+			<CharAction CharActionLabel="S" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NE"
+			Length="LINE">
+			<CharAction CharActionLabel="T" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel="Q" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel="V" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="E"
+			Length="SHORT">
+			<CharAction CharActionLabel="U" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="E"
+			Length="LINE">
+			<CharAction CharActionLabel="R" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="W" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="X" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SE"
+			Length="SHORT">
+		<CharAction CharActionLabel="Y" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="Z" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="Ä" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="Ö" />
+		</Description>		
+	</Mode>
+	<Mode name ="NUM">
+		<Description Area="NONE" Curve="NONE" Direction="SW"
+			Length="SHORT">
+			<CharAction CharActionLabel="1" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="8" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="+" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="SW"
+			Length="LINE">
+			<CharAction CharActionLabel="-" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="W"
+			Length="LINE">
+			<CharAction CharActionLabel="9" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="W"
+			Length="LINE">
+		<CharAction CharActionLabel="*" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="W"
+			Length="SHORT">
+			<CharAction CharActionLabel="2" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="W"
+			Length="LINE">
+		<CharAction CharActionLabel="/" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel="0" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NW"
+			Length="SHORT">
+			<CharAction CharActionLabel="3" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="NW"
+			Length="LINE">
+		<CharAction CharActionLabel=":" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="NW"
+			Length="LINE">
+			<CharAction CharActionLabel=";" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="N"
+			Length="SHORT">
+		<CharAction CharActionLabel="4" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="N"
+			Length="LINE">
+		<CharAction CharActionLabel="&#x000A;" CharDisplay="&#x23CE;"/>
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="N"
+			Length="LINE">
+		<CharAction CharActionLabel="(" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="N"
+			Length="LINE">
+		<CharAction CharActionLabel=")" />
+		</Description>		
+		<Description Area="NONE" Curve="NONE" Direction="NE"
+			Length="SHORT">
+		<CharAction CharActionLabel="5" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel="\@" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel="\'" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="NE"
+			Length="LINE">
+		<CharAction CharActionLabel='"' />
+		</Description>		
+		<Description Area="NONE" Curve="NONE" Direction="E"
+			Length="SHORT">
+		<CharAction CharActionLabel="6" />
+		</Description>
+		<Description Area="NONE" Curve="NONE" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="_" />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="[" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="E"
+			Length="LINE">
+		<CharAction CharActionLabel="]" />
+		</Description>		
+		<Description Area="NONE" Curve="NONE" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="," />
+		</Description>
+		<Description Area="NONE" Curve="LEFT" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="&#x003C;" />
+		</Description>
+		<Description Area="NONE" Curve="RIGHT" Direction="SE"
+			Length="LINE">
+		<CharAction CharActionLabel="&#x003E;" />
+		</Description>		
+		<Description Area="NONE" Curve="NONE" Direction="SE"
+			Length="SHORT">
+		<CharAction CharActionLabel="7" />
+		</Description>
+	</Mode>
+</Bloom>
+    
