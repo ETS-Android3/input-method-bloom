@@ -22,3 +22,7 @@ assigned.
 
 Bloom was available in the Google play store for a long time. Soon a new version will be published
 based on the code you find here in GitHub.
+
+# Privacy Policy
+Arthur van der Knaap built the Bloom app as an Open Source app. This SERVICE is provided no cost and
+is intended for use as is. The service does not collect any data.
