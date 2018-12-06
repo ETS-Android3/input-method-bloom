@@ -36,6 +36,10 @@ public class CharAction {
 		}else
 			return 'x';
 	}
+	public boolean isCharDisplay() {
+		return (charDisplay != null);
+	}
+	
 	public char asChar(){
 		if(charActionLabel != null){
 			return charActionLabel.charAt(0);

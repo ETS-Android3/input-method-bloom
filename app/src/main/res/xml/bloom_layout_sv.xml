@@ -15,7 +15,7 @@
 		</Description>
 		<Description Area="NONE" Curve="NONE" Direction="S"
 			Length="SHORT">
-			<CharAction CharActionLabel=" " />
+			<CharAction CharActionLabel=" "  CharDisplay="&#x2423;"/>
 		</Description>
 		<Description Area="NONE" Curve="NONE" Direction="S"
 			Length="LINE">

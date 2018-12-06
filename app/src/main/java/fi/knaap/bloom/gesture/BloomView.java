@@ -87,8 +87,10 @@ public class BloomView extends View {
 	}
 	
 	private void drawLetters(int textSize, Canvas canvas, double radius) {
+		Typeface basicFont = Typeface.create(fontPref, 0);
+		Typeface bloomFont = Typeface.createFromAsset(getContext().getAssets(),"fonts/Bloom.ttf");
 		paint.setTextSize(textSize);		
-		paint.setTypeface(Typeface.create(fontPref, 0));
+		paint.setTypeface(basicFont);
 		paint.setAntiAlias(true);
 		paint.setTextAlign(Align.CENTER);
 		Set<Entry<StrokeDescription, CharAction>> bindings = getController().getConfig().getCurrentBindings().entrySet();
@@ -104,11 +106,17 @@ public class BloomView extends View {
 			}else{
 				paint.setColor(Color.GRAY);								
 			}
-			String charString = "" + binding.getValue().getCharDisplay();
+			String charString = "" + (char) binding.getValue().getCharDisplay();
 			Util.rotatePoint(rotateAngle, point);
 			float x = point.getX();
 			float y = point.getY() + Math.round(0.3 * textSize);
+			if(binding.getValue().isCharDisplay()){
+				 paint.setTypeface(bloomFont);
+			}
 			canvas.drawText(charString, x, y, paint);
+			if(binding.getValue().isCharDisplay()){
+				 paint.setTypeface(basicFont);
+			}
 		}
 	}
 
