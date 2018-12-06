@@ -6,7 +6,7 @@ public class CharAction {
 	int codes = -99999;
 	String charActionLabel;
 	String charDisplay;
-	private CharAction(int codes, String keyLabel, String charDisplay) {
+	public CharAction(int codes, String keyLabel, String charDisplay) {
 		super();
 		this.codes = codes;
 		this.charActionLabel = keyLabel;

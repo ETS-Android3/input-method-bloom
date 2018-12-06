@@ -62,6 +62,9 @@ public class BloomController  {
 				config.decCurrentMode();
 				getBloomView().setNeedsRedraw(true);
 				action = null;
+			} else if (action.getCodes() == -4) {
+				getBloomView().setNeedsRedraw(true);
+				action = null;
 			} else if(useAutoCapitalisation && config.getMode().isUpper()){
 				if(!prevCharWrittenUpper){
 					config.returnToPreviousMode();
@@ -101,7 +104,7 @@ public class BloomController  {
 				if (event == XmlResourceParser.START_TAG) {
 					String tag = parser.getName();
 					if (TAG_MODE.equals(tag)) {
-						currentMode = Mode.createMode(parser, modeIndex);
+						currentMode = Mode.createMode(parser, modeIndex, currentMode);
 						tempConfig.addMode(currentMode);
 						modeIndex++;
 					} else if (TAG_DESCRIPTION.equals(tag)) {

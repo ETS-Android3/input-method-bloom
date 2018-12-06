@@ -30,7 +30,7 @@
 			<CharAction CharActionLabel="!"/>
 		</Description>	
 		</Mode>
-	<Mode name="LOWER">
+	<Mode type="LOWER">
 		<Description Area="NONE" Curve="NONE" Direction="SW"
 			Length="SHORT">
 			<CharAction CharActionLabel="a" />
@@ -144,120 +144,8 @@
 		<CharAction CharActionLabel="ö" />
 		</Description>		
 	</Mode>
-	<Mode name ="UPPER">
-		<Description Area="NONE" Curve="NONE" Direction="SW"
-			Length="SHORT">
-			<CharAction CharActionLabel="A" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="SW"
-			Length="LINE">
-			<CharAction CharActionLabel="D" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="SW"
-			Length="LINE">
-			<CharAction CharActionLabel="B" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="SW"
-			Length="LINE">
-			<CharAction CharActionLabel="C"/>
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="W"
-			Length="SHORT">
-			<CharAction CharActionLabel="E" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="W"
-			Length="LINE">
-			<CharAction CharActionLabel="G" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="W"
-			Length="LINE">
-			<CharAction CharActionLabel="F" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="W"
-			Length="LINE">
-			<CharAction CharActionLabel="H"/>
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="NW"
-			Length="SHORT">
-			<CharAction CharActionLabel="I" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="NW"
-			Length="LINE">
-			<CharAction CharActionLabel="L" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="NW"
-			Length="LINE">
-			<CharAction CharActionLabel="K" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="NW"
-			Length="LINE">
-			<CharAction CharActionLabel="J"/>
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="N"
-			Length="SHORT">
-			<CharAction CharActionLabel="O" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="N"
-			Length="LINE">
-			<CharAction CharActionLabel="N" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="N"
-			Length="LINE">
-			<CharAction CharActionLabel="M" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="N"
-			Length="LINE">
-			<CharAction CharActionLabel="P" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="NE"
-			Length="SHORT">
-			<CharAction CharActionLabel="S" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="NE"
-			Length="LINE">
-			<CharAction CharActionLabel="T" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="NE"
-			Length="LINE">
-		<CharAction CharActionLabel="Q" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="NE"
-			Length="LINE">
-		<CharAction CharActionLabel="V" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="E"
-			Length="SHORT">
-			<CharAction CharActionLabel="U" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="E"
-			Length="LINE">
-			<CharAction CharActionLabel="R" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="E"
-			Length="LINE">
-		<CharAction CharActionLabel="W" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="E"
-			Length="LINE">
-		<CharAction CharActionLabel="X" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="SE"
-			Length="SHORT">
-		<CharAction CharActionLabel="Y" />
-		</Description>
-		<Description Area="NONE" Curve="NONE" Direction="SE"
-			Length="LINE">
-		<CharAction CharActionLabel="Z" />
-		</Description>
-		<Description Area="NONE" Curve="LEFT" Direction="SE"
-			Length="LINE">
-		<CharAction CharActionLabel="Ä" />
-		</Description>
-		<Description Area="NONE" Curve="RIGHT" Direction="SE"
-			Length="LINE">
-		<CharAction CharActionLabel="Ö" />
-		</Description>		
-	</Mode>
+	<Mode type="UPPER">
+ 	</Mode>
 	<Mode name ="NUM">
 		<Description Area="NONE" Curve="NONE" Direction="SW"
 			Length="SHORT">
