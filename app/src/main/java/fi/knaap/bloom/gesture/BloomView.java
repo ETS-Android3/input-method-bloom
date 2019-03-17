@@ -62,6 +62,9 @@ public class BloomView extends View {
 
 	public void setNeedsRedraw(boolean needsRedraw) {
 		this.needsRedraw = needsRedraw;
+		if(needsRedraw) {
+			this.invalidate();
+		}
 	}
 
 	private Bitmap cachedBitmap;
@@ -104,7 +107,7 @@ public class BloomView extends View {
 			if(binding.getKey().getCurve() == Curve.NONE){
 				paint.setColor(Color.WHITE);				
 			}else{
-				paint.setColor(Color.GRAY);								
+				paint.setColor(Color.LTGRAY);
 			}
 			String charString = "" + (char) binding.getValue().getCharDisplay();
 			Util.rotatePoint(rotateAngle, point);

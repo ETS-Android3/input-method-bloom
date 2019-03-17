@@ -1,14 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fi.knaap.bloom"
-    android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionCode="4"
+    android:versionName="1.1" >
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-sdk android:minSdkVersion="26"/>
     <application
-        android:debuggable="true"
+        android:debuggable="false"
         android:label="Bloom"
-        android:icon="@drawable/ic_launcher_bloomicon"
+        android:icon="@drawable/ic_launcher"
         package="fi.knaap.bloom" >
         <uses-library android:name="android.test.runner" />
 
@@ -31,16 +32,9 @@
             android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--
-             <activity
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:name="com.google.ads.AdActivity" />
-        -->
     </application>
 
     <instrumentation

@@ -59,6 +59,14 @@ public class Config {
 		}
 	}
 
+	public void setModeTypeNum() {
+		for(Mode mode: modes){
+			if(mode.isNum()){
+				currentMode = mode.getIndex();
+			}
+		}
+	}
+
 	public void decCurrentMode() {
 		previousMode = currentMode;
 		if (currentMode > 1) {

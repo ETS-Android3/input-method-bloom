@@ -7,6 +7,7 @@ package fi.knaap.bloom;
 import android.content.res.Configuration;
 import android.gesture.GestureOverlayView;
 import android.inputmethodservice.InputMethodService;
+import android.text.InputType;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,9 +45,16 @@ public class BloomService extends InputMethodService  {
     
     @Override
     public void onStartInputView(EditorInfo info, boolean restarting) {
-    	// TODO Auto-generated method stub
+    	// TODO Auto-generated method stubs
     	super.onStartInputView(info, restarting);
-    	updatePreferences();
+        int inputType = info.inputType & InputType.TYPE_MASK_CLASS;
+        updatePreferences();
+        int inputNumbers = inputType & InputType.TYPE_CLASS_DATETIME | inputType & InputType.TYPE_CLASS_NUMBER
+                |inputType & InputType.TYPE_CLASS_PHONE;
+        if (inputNumbers != 0)
+        {
+            getBloomController().getConfig().setModeTypeNum();
+        }
     }
      
     private void updatePreferences() {
