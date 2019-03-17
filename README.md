@@ -7,7 +7,12 @@ Bloom is designed fom scratch to function optimally on touch screens. It allows 
 on the written text, not on the writing itself. To get started Bloom does not require leaning
 anything by heart.
 
+Bloom has been available in the Google play store for a long time. Since march 2019 the source code has
+been published to GiHub.
+
 # How does Bloom work
+
+## Overview
 Bloom defines a very simple language consisting of only 3 different pen strokes and writing a dot.
 Depending on the direction of the stroke, the meaning of the stroke is a different letter. The strokes
 are the simplest possible:
@@ -20,8 +25,11 @@ creating 45 degree sectors. For curve and looped stroke, also the side of the cu
 selection of the letter. Bloom contains a display that shows the user to which stroke each letter is
 assigned.
 
-Bloom was available in the Google play store for a long time. Soon a new version will be published
-based on the code you find here in GitHub.
+## Writing
+### Short stroke
+The simplest stroke is a short stroke, just about the size from the centrer of the circle to the innermost
+ring of letters. The direction of the short stroke determines the letter you are writing.
+![alt text](readmeFiles/shortStroke.gif "Short stroke")
 
 # Privacy Policy
 Arthur van der Knaap built the Bloom app as an Open Source app. This SERVICE is provided no cost and
