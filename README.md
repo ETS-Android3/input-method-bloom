@@ -27,9 +27,17 @@ assigned.
 
 ## Writing
 ### Short stroke
-The simplest stroke is a short stroke, just about the size from the centrer of the circle to the innermost
+The simplest stroke is a short stroke, just about the size from the centre of the circle to the inne
 ring of letters. The direction of the short stroke determines the letter you are writing.
+
 ![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/shortStroke.gif "Short stroke")
+
+### Long stroke
+A stroke about the length from the centre of the circle to the outer
+ring of letters will produce the letter on the middle of the group of three letters.
+Again, ther direction of the stroke determines the letter you are writing.
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/longStroke.gif "Long stroke")
 
 # Privacy Policy
 Arthur van der Knaap built the Bloom app as an Open Source app. This SERVICE is provided no cost and
