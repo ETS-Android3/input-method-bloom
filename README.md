@@ -90,7 +90,7 @@ Now you will be able to switch between keyboards easily
 ## Bloom configuration
 You can configure Bloom to fit your needs. You can open the configuration screen from the Bloom application
 
-![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/bloomSettings.gif "Open Bloom settings")
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/BloomSettings.gif "Open Bloom settings")
 
 The following items can be configured
 - **Auto-capitalization** If enabled, will return always to normal mode after one capital has been written
