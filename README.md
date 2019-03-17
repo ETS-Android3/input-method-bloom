@@ -87,6 +87,17 @@ Now you will be able to switch between keyboards easily
 
 ![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/changeInputMethod.gif "Change input method")
 
+## Bloom configuration
+You can configure Bloom to fit your needs. You can open the configuration screen from the Bloom application
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/bloomSettings.gif "Open Bloom settings")
+
+The following items can be configured
+- **Auto-capitalization** If enabled, will return always to normal mode after one capital has been written
+- **Language** Choosen language impacts the letters that are offerred. E.g. Finnish language provides
+the ö, ä and å- characters.
+- **Font** Font in which the letters on Bloom are shown. This does not affect what you write.
+- **Size** Determines what size the circle of letters is shown, also affects the length of the short stroke.
 
 # Privacy Policy
 Arthur van der Knaap built the Bloom app as an Open Source app. This SERVICE is provided no cost and
