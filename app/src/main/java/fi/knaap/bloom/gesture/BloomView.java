@@ -28,7 +28,7 @@ import fi.knaap.bloom.control.StrokeDescription.Direction;
 import fi.knaap.bloom.control.StrokeDescription.Length;
 
 public class BloomView extends View {
-	private int bloomSize = 200;
+	private int bloomSize = 800;
 	public BloomView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}

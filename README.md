@@ -1,14 +1,20 @@
 # Bloom input method
-Keyboards where developped to move the hammers of a typewriter to the paper using physical buttons.
+Keyboards where developed to move the hammers of a typewriter to the paper using physical buttons.
 The physical buttons have gone; we are now staring at the screen to find these small buttons that
 are ordered so that the hammers of the typewriter do not cling together.
 
 Bloom is designed fom scratch to function optimally on touch screens. It allows the user to focus
 on the written text, not on the writing itself. To get started Bloom does not require leaning
-anything by heart.
+anything by heart. Writing using Bloom may be a bit slower than using a conventional keyboard. However,
+Bloom allows a proficient user to concentrate on what is written rather than on co-ordinating the fingers
+on a tiny screen.
 
-Bloom has been available in the Google play store for a long time. Since march 2019 the source code has
-been published to GiHub.
+Bloom also may have a potential for users that suffer from disabilities that inhibit co-ordination or
+cause tremor in fingers.
+
+Bloom has been available in the [Google Play Store](https://play.google.com/store/apps/details?id=fi.knaap.bloom)
+ for a long time. Since march 2019 the source code has been published here to GiHub as open source
+ under the [MIT license](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/LICENSE)
 
 # How does Bloom work
 
@@ -33,11 +39,53 @@ ring of letters. The direction of the short stroke determines the letter you are
 ![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/shortStroke.gif "Short stroke")
 
 ### Long stroke
-A stroke about the length from the centre of the circle to the outer
-ring of letters will produce the letter on the middle of the group of three letters.
+A stroke that is lonnger will produce the letter on the middle of the group of three letters.
 Again, ther direction of the stroke determines the letter you are writing.
 
 ![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/longStroke.gif "Long stroke")
+
+### Hooked strokes
+If you make a stoke in a direction and contiue for the same distance 90 degrees left or right will produce
+The letter left or right from the one in the middle. The hook doesn't need to be sharp.
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/leftHook.gif "Left hook")
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/rightHook.gif "Right hook")
+
+### Backspace
+You can erase the previous character by giving only a short tap.
+
+### Write anywhere
+Since the writing is dependent only on the direction and the shape of the stroke, location is not very
+important.You can write anywhere in the Bloom area. This makes it possible to write without seeing
+where your finger excactly is.
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/writeAnywhere.gif "Write anywhere")
+
+### Capitals, numbers and special characters
+Bloom provides almost all but the basic characters in different modes. You can change mode by drawing
+a circle.
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/changeMode.gif "changeMode")
+
+# Installing and configuration
+
+## Installation
+Bloom can be installed to Android devices from the [Google Play Store](https://play.google.com/store/apps/details?id=fi.knaap.bloom)
+
+## Android configuration
+Since the input method integrates seemlessly with Andtoid, you need to tell android that you want to
+use Bloom. You do that in the Android settings
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/AndroidSettingsEnableBloom.gif "Enable Bloom in android settings")
+
+To actually use Bloom, you can enable the keyboard botton. This will add a small button that allows
+you to easily switch between your old keyboard and Bloom, even in the middle of a word.
+
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/AndroidSettingShowKeyboardButton.gif "Enable keyboard button")
+
+Now you will be able to switch between keyboards easily
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/changeInputMethod.gif "Change input method")
+
 
 # Privacy Policy
 Arthur van der Knaap built the Bloom app as an Open Source app. This SERVICE is provided no cost and
