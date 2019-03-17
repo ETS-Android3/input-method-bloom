@@ -84,6 +84,7 @@ you to easily switch between your old keyboard and Bloom, even in the middle of 
 ![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/AndroidSettingShowKeyboardButton.gif "Enable keyboard button")
 
 Now you will be able to switch between keyboards easily
+
 ![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/changeInputMethod.gif "Change input method")
 
 
