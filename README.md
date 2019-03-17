@@ -29,7 +29,7 @@ assigned.
 ### Short stroke
 The simplest stroke is a short stroke, just about the size from the centrer of the circle to the innermost
 ring of letters. The direction of the short stroke determines the letter you are writing.
-![alt text](readmeFiles/shortStroke.gif "Short stroke")
+![alt text](https://github.com/ArthurvdKnaap/input-method-bloom/blob/master/readmeFiles/shortStroke.gif "Short stroke")
 
 # Privacy Policy
 Arthur van der Knaap built the Bloom app as an Open Source app. This SERVICE is provided no cost and
