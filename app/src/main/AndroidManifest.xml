@@ -5,9 +5,7 @@
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-sdk android:minSdkVersion="26"/>
     <application
-        android:debuggable="false"
         android:label="Bloom"
         android:icon="@drawable/ic_launcher"
         package="fi.knaap.bloom" >
@@ -29,7 +27,8 @@
         <activity
             android:label="Bloom"
             android:name=".preferences.Preferences"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:exported="true">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

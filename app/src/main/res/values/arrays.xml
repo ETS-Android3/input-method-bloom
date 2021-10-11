@@ -17,11 +17,11 @@
 <resources>
     <!-- Used in Preferences -->
     <string-array name="size_values">
-        <item>400</item>
-        <item>600</item>
         <item>800</item>
-        <item>1000</item>
         <item>1200</item>
+        <item>1600</item>
+        <item>2000</item>
+        <item>2400</item>
         </string-array>
     
     <!-- Used in Preferences -->
